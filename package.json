@@ -1,0 +1,29 @@
+{
+  "name": "jlowe-ai-e2e-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx cross-env NODE_ENV=dev npx playwright test",
+    "qa": "npx cross-env NODE_ENV=qa npx playwright test",
+    "uat": "npx cross-env NODE_ENV=uat npx playwright test",
+    "prod": "npx cross-env NODE_ENV=prod npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlowe-ai/jlowe-ai-e2e-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jlowe-ai/jlowe-ai-e2e-tests/issues"
+  },
+  "homepage": "https://github.com/jlowe-ai/jlowe-ai-e2e-tests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.5.0"
+  }
+}
